@@ -78,10 +78,11 @@ public class Sketch extends PApplet {
   
       for(int intRow = 0; intRow < 30; intRow++){
         for(int intColumn = 0; intColumn < 30; intColumn++){
-          intX = 300 + 3 + intRow * 10; 
-          intY = 300 + 3 + 3 + intColumn * 10;
+          intX =  3 + intRow * 10; 
+          intY = 300 + 3 + intColumn * 10;
   
           noStroke();
+          fill(255);
           rect(intX, intY, 5, 5);
         }
       }
